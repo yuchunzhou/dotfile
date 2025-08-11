@@ -1,0 +1,11 @@
+[user]
+	email = enjoylife.czzz@gmail.com
+	name = Chunzhou Yu
+[init]
+	defaultBranch = main
+[pager]
+	branch = false
+[log]
+	date = format:%Y-%m-%d %H:%M:%S
+[pull]
+	rebase = false
