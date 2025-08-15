@@ -149,7 +149,7 @@ source "$OSH/oh-my-bash.sh"
 source ~/.alias
 
 # Emacs
-alias emacs="emacs -nw --init-directory=~/.emacs.d/"
+alias emacs="~/.emacs/src/emacs -nw --init-directory=~/.emacs.d/"
 source ~/.emacs.d/init.sh
 
 # hstr
