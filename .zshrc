@@ -107,7 +107,7 @@ source ~/.alias
 
 # Emacs
 alias emacs="~/.emacs/src/emacs -nw --init-directory=~/.emacs.d/"
-alias emacsclient="~/.emacs/lib-src/emacs -nw"
+alias emacsclient="~/.emacs/lib-src/emacsclient -nw"
 source ~/.emacs.d/init.sh
 
 # hstr
