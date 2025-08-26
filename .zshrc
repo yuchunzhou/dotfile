@@ -105,6 +105,16 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.alias
 
+function ls() {
+    command="/usr/bin/ls $@"
+    if [[ -f ".hidden" ]]; then
+        while read -r line; do
+            command+=" --hide '$line'"
+        done <.hidden
+    fi
+    eval "$command"
+}
+
 # Emacs
 alias emacs="~/.emacs/src/emacs -nw --init-directory=~/.emacs.d/"
 alias emacsclient="~/.emacs/lib-src/emacsclient -nw"
