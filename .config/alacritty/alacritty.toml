@@ -1,0 +1,11 @@
+[window]
+startup_mode = "Maximized"
+
+[font]
+normal = { family = "ComicShannsMonoNerdFontPropo", style = "Regular" }
+size = 12
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Control|Shift"
+action = "SpawnNewInstance"
